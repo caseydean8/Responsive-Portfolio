@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>contact page</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div id="name">
+                    Casey Carroll
+                </div>
+                <div id="links">
+                    <div class="link-bar" id="about">
+                        <a href="index.html">About</a>
+                    </div>
+                    <div class="link-bar" class="spacing">
+                    </div>
+                    <div class="link-bar" id="portfolio"> 
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="link-bar" class="spacing">
+                    </div>
+                    <div class="link-bar" id="contact">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main" id="two">
+            <div id="lower">
+                Contact
+            </div>
+            <div id="lower-spacer">
+            </div>
+            <form action="action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="Name" placeholder="John Smith">
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                <!-- <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select> -->
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="" style="height:150px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <footer>
+        </footer>
+    </body>
+</html>
