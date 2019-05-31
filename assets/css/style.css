@@ -2,6 +2,7 @@
     /* width: 100%; */
     position: relative;  
     min-height: 100vh;
+    min-width: 320px;
 }
 
 * {
@@ -14,7 +15,7 @@ a {
     color: #4aaaa5;
 }
 body {
-    /* background-image: url("crossline-dots.png"); */
+    background-image: url("crossline-dots.png");
 }
 header {
     margin-top: 0px;
@@ -71,9 +72,6 @@ header {
     background-color: #ffffff
 }
 
-.link-bar {
-    /* padding-top: 15px; */
-}
 
 .spacing{
     width: 1px;
@@ -160,7 +158,7 @@ input[type=text], select, textarea {
   #content-wrapper {  
     padding-bottom: 75px;
     padding-top: 1%;
-    background-image: url("crossline-dots.png");
+    /* background-image: url("crossline-dots.png"); */
     /* clear: both; */
 }
 
@@ -184,10 +182,14 @@ input[type=text], select, textarea {
 
   @media (max-width: 980px) {
 
-    #content, #navbar{
+    #content {
         width: 93%;
     }
 
+    #navbar {
+        width: 100%;
+    }
+  }
 
 
    
@@ -239,5 +241,12 @@ input[type=text], select, textarea {
 
   #content-wrapper, #content {
       clear: both;
+        }
+        
+        .placeholder{
+            width: 88%;
+            margin: 6%;
+            height: 33%;
+        }
         }
     }   

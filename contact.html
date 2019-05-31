@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>contact page</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact page</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page-container">
         <header>
-            <div class="main">
+            <div class="main" id="navbar">
                 <div id="name">
                     Casey Carroll
                 </div>
@@ -20,7 +23,7 @@
                     </div>
                     <div class="link-bar" class="spacing">
                     </div>
-                    <div class="link-bar" id="portfolio"> 
+                    <div class="link-bar" id="portfolio">
                         <a href="portfolio.html">Portfolio</a>
                     </div>
                     <div class="link-bar" class="spacing">
@@ -31,29 +34,42 @@
                 </div>
             </div>
         </header>
-        <div class="main" id="two">
-            <div id="lower">
-                Contact
-            </div>
-            <div id="lower-spacer">
-            </div>
-            <form action="action_page.php">
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="Name" placeholder="John Smith">
-                <label for="lname">Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-                <!-- <label for="country">Country</label>
+        <div id="content-wrapper">
+            <div class="main" id="content">
+                <div id="about-me">
+                    Contact
+                </div>
+                <div id="lower-spacer">
+                </div>
+                <form action="action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="Name" placeholder="John Smith">
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                    <!-- <label for="country">Country</label>
                     <select id="country" name="country">
                       <option value="australia">Australia</option>
                       <option value="canada">Canada</option>
                       <option value="usa">USA</option>
                     </select> -->
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="" style="height:150px"></textarea>
-                <input type="submit" value="Submit">
-            </form>
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="" style="height:150px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
         <footer>
         </footer>
-    </body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
