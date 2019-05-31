@@ -196,7 +196,7 @@ input[type=text], select, textarea {
  span { 
     color:#ffffff; 
     font: bold 24px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
+    /* letter-spacing: -1px;   */
     background:#4aaaa5; /* fallback color */
     /* background: rgba(0, 0, 0, 0.7); */
     padding: 10px; 
@@ -271,4 +271,4 @@ input[type=text], select, textarea {
             height: 33%;
         }
         }
-    }   
+       

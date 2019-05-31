@@ -1,1 +1,2 @@
 # Responsive-Portfolio
+This is a responsive version of my first html/css website. I learned more about the behavior of floats and clears in this project, but it still needs a lot of work and I want to comb through the css at some point to make it look cleaner and remove unnecessary lines of code. I wrestled with making the navigation links responsive for a long time and discovered display: flex; justify-content: center worked to center the links when they slide under the header.
