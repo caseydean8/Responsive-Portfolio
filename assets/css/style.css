@@ -36,7 +36,7 @@ header {
 }
 
 #content {
-    /* margin-top: 45px; */
+    margin-top: 25px;
     background-color: #ffffff;
     border: #dddddd;
     border-style: solid;
@@ -44,6 +44,7 @@ header {
     padding: 0px;
     margin-bottom: 45px;
     padding-bottom: 15px;
+    /* clear: both; */
 }
 #name {
     font-size: 33px;
@@ -158,8 +159,9 @@ input[type=text], select, textarea {
   
   #content-wrapper {  
     padding-bottom: 75px;
-    padding-top: 4%;
+    padding-top: 1%;
     background-image: url("crossline-dots.png");
+    /* clear: both; */
 }
 
   footer {
@@ -182,13 +184,11 @@ input[type=text], select, textarea {
 
   @media (max-width: 980px) {
 
-    #content {
+    #content, #navbar{
         width: 93%;
     }
 
-    .main {
-        width: 93%;
-    }
+
 
    
 
@@ -202,25 +202,23 @@ input[type=text], select, textarea {
         width: 100%;
         margin: 0 auto;
     }
-    #content {
+    /* #content {
         width: 93%;
-        margin-top: 8%;
+        margin-top: 0%; */
     }
 
-    /* #links {
-        width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    } */
+    #links {
+        margin: 0 auto;
+    } 
   }
 
   @media (max-width: 640px) {
       
-      #content-wrapper{
+      /* #content-wrapper
           width: 100%;
           margin: 0 auto;
-          padding-top: 9%;
-      }
+          /* padding-top: 9%; */
+      
 
     header {
         background-color: #4aaaa5;
@@ -228,9 +226,9 @@ input[type=text], select, textarea {
         width: 100%;
     }
 
-    #name, #links {
+    /* #name, #links {
         width: 100%;
-    }
+    } */
 
       #content {
           width: 93%;
@@ -247,4 +245,8 @@ input[type=text], select, textarea {
       #about-me {
           text-align: center;
       }
+  }
+
+  #content-wrapper, #content {
+      clear: both;
   }
