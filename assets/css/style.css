@@ -176,9 +176,31 @@ input[type=text], select, textarea {
     width: 100%;
   }
 
-  .placeholder{
+  /* .placeholder{
       width: 45%;
-  }
+  } */
+
+  .image { 
+    position: relative; 
+    width: 100%;
+    display: inline-block;
+ }
+ 
+ h2 { 
+    position: absolute; 
+    top: 75%; 
+    left: 0; 
+    width: 100%; 
+ }
+
+ span { 
+    color:#ffffff; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background:#4aaaa5; /* fallback color */
+    /* background: rgba(0, 0, 0, 0.7); */
+    padding: 10px; 
+ }
 
   @media (max-width: 980px) {
 
