@@ -109,7 +109,7 @@ header {
 }
 
 #lower-spacer {
-    width: 97%;
+    width: 95%;
     height: 2px;
     margin: 0 auto;
     background-color:#dddddd;
@@ -194,31 +194,19 @@ input[type=text], select, textarea {
 
   @media (max-width: 768px) {
 
-    /* header {
-        background-color: #4aaaa5
-    } */
-
     #content-wrapper{
         width: 100%;
         margin: 0 auto;
     }
-    /* #content {
-        width: 93%;
-        margin-top: 0%; */
-    }
 
-    #links {
-        margin: 0 auto;
-    } 
   }
 
   @media (max-width: 640px) {
-      
-      /* #content-wrapper
-          width: 100%;
-          margin: 0 auto;
-          /* padding-top: 9%; */
-      
+    
+    #name {
+        margin: 0 auto;
+        width: 100%;
+    }  
 
     header {
         background-color: #4aaaa5;
@@ -226,27 +214,30 @@ input[type=text], select, textarea {
         width: 100%;
     }
 
-    /* #name, #links {
-        width: 100%;
-    } */
-
-      #content {
+    #content {
           width: 93%;
-          margin-top: 8%;
-      }
+          margin-top: 3%;
+    }
 
       #links {
-          float: left;
           width: 100%;
           padding: 16px;
-
-      }
+          display: flex;
+          justify-content: center;
+        }
 
       #about-me {
           text-align: center;
-      }
-  }
+        }   
+
+        img {
+            width: 88%;
+            margin: 6%;
+            height: 33%;
+        }
+
 
   #content-wrapper, #content {
       clear: both;
-  }
+        }
+    }   
